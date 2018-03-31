@@ -1,0 +1,308 @@
+db.individual.insert({
+	player: 'Tom Brady',
+	city: 'New England',
+	team: 'Patriots',
+	rushing: '',
+	passing: '4577',
+	receiving: '',
+	sacks: '',
+	tackles: '',
+	interceptions: ''
+});
+db.individual.insert({
+	name: 'Philip Rivers',
+	city: 'Los Angeles',
+	team: 'Chargers',
+	rushing: '',
+	passing: '4515',
+	receiving: '',
+	sacks: '',
+	tackles: '',
+	interceptions: ''
+});
+db.individual.insert({
+	name: 'Matthew Stafford',
+	city: 'Detroit',
+	team: 'Lions',
+	rushing: '',
+	passing: '4446',
+	receiving: '',
+	sacks: '',
+	tackles: '',
+	interceptions: ''
+});
+db.individual.insert({
+	name: 'Drew Brees',
+	city: 'New Orleans',
+	team: 'Saints',
+	rushing: '',
+	passing: '4334',
+	receiving: '',
+	sacks: '',
+	tackles: '',
+	interceptions: ''
+});
+db.individual.insert({
+	name: 'Ben Roethlesberger',
+	city: 'Pittsburgh',
+	team: 'Steelers',
+	rushing: '',
+	passing: '4251',
+	receiving: '',
+	sacks: '',
+	tackles: '',
+	interceptions: ''
+});
+db.individual.insert({
+	name: 'Kareem Hunt',
+	city: 'Kansas City',
+	team: 'Chiefs',
+	rushing: '1327',
+	passing: '',
+	receiving: '',
+	sacks: '',
+	tackles: '',
+	interceptions: ''
+});
+db.individual.insert({
+	name: 'Le'Veon Bell',
+	city: 'Pittsburgh',
+	team: 'Steelers',
+	rushing: '1291',
+	passing: '',
+	receiving: '',
+	sacks: '',
+	tackles: '',
+	interceptions: ''
+});
+db.individual.insert({
+	name: 'LeSean McCoy',
+	city: 'Buffalo',
+	team: 'Bills',
+	rushing: '1138',
+	passing: '',
+	receiving: '',
+	sacks: '',
+	tackles: '',
+	interceptions: ''
+});
+db.individual.insert({
+	name: 'Mark Ingram',
+	city: 'New Orleans',
+	team: 'Saints',
+	rushing: '1124',
+	passing: '',
+	receiving: '',
+	sacks: '',
+	tackles: '',
+	interceptions: ''
+});
+db.individual.insert({
+	name: 'Antonio Brown',
+	city: 'Pittsburgh',
+	team: 'Steelers',
+	rushing: '',
+	passing: '',
+	receiving: '1533',
+	sacks: '',
+	tackles: '',
+	interceptions: ''
+});
+db.individual.insert({
+	name: 'Julio Jones',
+	city: 'Atlanta',
+	team: 'Falcons',
+	rushing: '',
+	passing: '',
+	receiving: '1444',
+	sacks: '',
+	tackles: '',
+	interceptions: ''
+});
+db.individual.insert({
+	name: 'DeAndre Hopkins',
+	city: 'Houston',
+	team: 'Texans',
+	rushing: '',
+	passing: '',
+	receiving: '1378',
+	sacks: '',
+	tackles: '',
+	interceptions: ''
+});
+db.individual.insert({
+	name: 'Adam Thielen',
+	city: 'Minnesota',
+	team: 'Vikings',
+	rushing: '',
+	passing: '',
+	receiving: '1276',
+	sacks: '',
+	tackles: '',
+	interceptions: ''
+});
+db.individual.insert({
+	name: 'Preston Brown',
+	city: 'Buffalo',
+	team: 'Bills',
+	rushing: '',
+	passing: '',
+	receiving: '',
+	sacks: '',
+	tackles: '144',
+	interceptions: ''
+});
+db.individual.insert({
+	name: 'Blake Martinez',
+	city: 'Green Bay',
+	team: 'Packers',
+	rushing: '',
+	passing: '',
+	receiving: '',
+	sacks: '',
+	tackles: '144',
+	interceptions: ''
+});
+db.individual.insert({
+	name: 'Joe Schobert',
+	city: 'Cleveland',
+	team: 'Browns',
+	rushing: '',
+	passing: '',
+	receiving: '',
+	sacks: '',
+	tackles: '144',
+	interceptions: ''
+});
+db.individual.insert({
+	name: 'Deion Jones',
+	city: 'Atlanta',
+	team: 'Falcons',
+	rushing: '',
+	passing: '',
+	receiving: '',
+	sacks: '',
+	tackles: '138',
+	interceptions: ''
+});
+db.individual.insert({
+	name: 'Christian Kirksey',
+	city: 'Cleveland',
+	team: 'Browns',
+	rushing: '',
+	passing: '',
+	receiving: '',
+	sacks: '',
+	tackles: '138',
+	interceptions: ''
+});
+db.individual.insert({
+	name: 'Chandler Jones',
+	city: 'Arizona',
+	team: 'Cardinals',
+	rushing: '',
+	passing: '',
+	receiving: '',
+	sacks: '17.0',
+	tackles: '',
+	interceptions: ''
+});
+db.individual.insert({
+	name: 'Calais Campbell',
+	city: 'Jacksonville',
+	team: 'Jaguars',
+	rushing: '',
+	passing: '',
+	receiving: '',
+	sacks: '14.5',
+	tackles: '',
+	interceptions: ''
+});
+db.individual.insert({
+	name: 'Demarcus Lawrence',
+	city: 'Dallas',
+	team: 'Cowboys',
+	rushing: '',
+	passing: '',
+	receiving: '',
+	sacks: '14.5',
+	tackles: '',
+	interceptions: ''
+});
+db.individual.insert({
+	name: 'Everson Griffen',
+	city: 'Minnesota',
+	team: 'Vikings',
+	rushing: '',
+	passing: '',
+	receiving: '',
+	sacks: '13.0',
+	tackles: '',
+	interceptions: ''
+});
+db.individual.insert({
+	name: 'Cameron Jordan',
+	city: 'New Orleans',
+	team: 'Saints',
+	rushing: '',
+	passing: '',
+	receiving: '',
+	sacks: '13.0',
+	tackles: '',
+	interceptions: ''
+});
+db.individual.insert({
+	name: 'Kevin Byard',
+	city: 'Tennessee',
+	team: 'Titans',
+	rushing: '',
+	passing: '',
+	receiving: '',
+	sacks: '',
+	tackles: '',
+	interceptions: '8'
+});
+db.individual.insert({
+	name: 'Darius Slay',
+	city: 'Detroit',
+	team: 'Lions',
+	rushing: '',
+	passing: '',
+	receiving: '',
+	sacks: '',
+	tackles: '',
+	interceptions: '8'
+});
+db.individual.insert({
+	name: 'A.J. Bouye',
+	city: 'Jacksonville',
+	team: 'Jaguars',
+	rushing: '',
+	passing: '',
+	receiving: '',
+	sacks: '',
+	tackles: '',
+	interceptions: '6'
+});
+db.individual.insert({
+	name: 'Eric Weddle',
+	city: 'Baltimore',
+	team: 'Ravens',
+	rushing: '',
+	passing: '',
+	receiving: '',
+	sacks: '',
+	tackles: '',
+	interceptions: '6'
+});
+db.individual.insert({
+	name: 'Antoine Bethea',
+	city: 'Arizona',
+	team: 'Cardinals',
+	rushing: '',
+	passing: '',
+	receiving: '',
+	sacks: '',
+	tackles: '',
+	interceptions: '5'
+});
