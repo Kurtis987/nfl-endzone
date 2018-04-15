@@ -1,5 +1,5 @@
 db.individual.insert({
-	player: 'Tom Brady',
+	name: 'Tom Brady',
 	city: 'New England',
 	team: 'Patriots',
 	rushing: '',
@@ -65,7 +65,18 @@ db.individual.insert({
 	interceptions: ''
 });
 db.individual.insert({
-	name: 'Le'Veon Bell',
+	name: 'Todd Gurley',
+	city: 'Los Angeles',
+	team: 'Rams',
+	rushing: '1305',
+	passing: '',
+	receiving: '',
+	sacks: '',
+	tackles: '',
+	interceptions: ''
+});
+db.individual.insert({
+	name: 'Le\'Veon Bell',
 	city: 'Pittsburgh',
 	team: 'Steelers',
 	rushing: '1291',
@@ -115,6 +126,17 @@ db.individual.insert({
 	rushing: '',
 	passing: '',
 	receiving: '1444',
+	sacks: '',
+	tackles: '',
+	interceptions: ''
+});
+db.individual.insert({
+	name: 'Keenan Allen',
+	city: 'Los Angeles',
+	team: 'Chargers',
+	rushing: '',
+	passing: '',
+	receiving: '1393',
 	sacks: '',
 	tackles: '',
 	interceptions: ''

@@ -7,7 +7,9 @@
   	<meta name="viewport" content="width=device-width, initial-scale=1">
 
   	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-
+    <link rel="stylesheet" href="{{ url_for ('static', filename='lib/css/bootstrap.min.css')}}">
+    <link rel="stylesheet" href="{{ url_for ('static', filename='lib/css/keen-dashboards.css')}}">
+    <link rel="stylesheet" href="{{ url_for ('static', filename='lib/css/dc.css')}}">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
 </head>
 <body>
@@ -28,8 +30,8 @@
                 <li class="dropdown">
                     <a class="dropdown-toggle" data-toggle="dropdown" href=""><span class="glyphicon	glyphicon glyphicon-list-alt"></span> Stats <span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                      <li><a href="team.html">Team</a></li>
-                      <li><a href="individual.html">Individual</a></li>
+                      <li><a href="/stats/team">Team</a></li>
+                      <li><a href="/stats/individual">Individual</a></li>
                       <li><a href="standings.html">Standings</a></li>
                     </ul>
                 </li>
@@ -48,5 +50,11 @@
 
   	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="{{ url_for ('static', filename='lib/js/crossfilter.js')}}"></script>
+    <script src="{{ url_for ('static', filename='lib/js/d3.js')}}"></script>
+    <script src="{{ url_for ('static', filename='lib/js/dc.js')}}"></script>
+    <script src="{{ url_for ('static', filename='lib/js/queue.js')}}"></script>
+    <script src="{{ url_for ('static', filename='lib/js/keen.min.js')}}"></script>
+    <script src="{{ url_for ('static', filename='js/graph.js')}}"></script>
 </body>
 </html>
