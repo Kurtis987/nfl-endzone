@@ -27,6 +27,7 @@ MONGODB_PORT = 27017
 DBS_NAME = 'nfl'
 COLLECTION_ONE = 'individual'
 COLLECTION_TWO = 'NFLTeams'
+COLLECTION_THREE = 'trivia'
 
 @app.route('/')
 def home():
@@ -57,6 +58,33 @@ def Interceptions():
 @app.route('/stats/team')
 def team():
     return render_template('team.html')
+
+@app.route('/trivia')
+def trivia():
+    return render_template('trivia.html')
+
+@app.route('/trivia/dump')
+def getTrivia():
+    FIELDS = {
+        '_id': False, 'question': True, 'a': True, 'b': True,
+        'c': True, 'd': True, 'answer': True
+    }
+
+    # Open a connection to MongoDB using a with statement such that the
+    # connection will be closed as soon as we exit the with statement
+    with MongoClient(MONGODB_HOST, MONGODB_PORT) as conn:
+        try:
+            # Define which collection we wish to access
+            collection = conn[DBS_NAME][COLLECTION_THREE]
+            # Retrieve a result set only with the fields defined in FIELDS
+            # and limit the the results to 55000
+            trivia = collection.find(projection=FIELDS, limit=5500)
+
+            # Convert projects to a list in a JSON object and return the JSON data
+            return json.dumps(list(trivia), separators=(',', ':'))
+
+        except:
+            return "no documents found"
 
 @app.route('/stats/dump')
 def passing():

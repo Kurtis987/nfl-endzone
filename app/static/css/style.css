@@ -51,7 +51,14 @@ footer {
     margin: 0 10px 10px 0;
     border-radius: 50px;
 }
+.trivia-btn{
+    width: 200px;
+    margin: 5px;
+    webkit-box-shadow: -5px 5px 5px #888888;
+    -moz-box-shadow: -5px 5px 5px #888888;
+    box-shadow: -5px 5px 5px #888888;
 
+}
 #welcome {
     text-align: center;
     margin-bottom: 40px;

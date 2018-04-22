@@ -1,0 +1,240 @@
+db.trivia.insert({
+	question: 'Who has the most wins as a head coach in the NFL?',
+	a: 'George Halas',
+	b: 'Curly Lambeau',
+	c: 'Tom Landry',
+	d: 'Don Shula',
+	answer: 'Don Shula'
+});
+db.trivia.insert({
+	question: 'Which NFL team features a helmet decal only on one side of the helmet?',
+	a: 'Houston Texans',
+	b: 'Jacksonville Jaguars',
+	c: 'Pittsburgh Steelers',
+	d: 'Tennessee Titans',
+	answer: 'Pittsburgh Steelers'
+});
+db.trivia.insert({
+	question: 'Who is the last non-quarterback to win NFL MVP?',
+	a: 'Shaun Alexander',
+	b: 'Ray Lewis',
+	c: 'Adrian Peterson',
+	d: 'LaDainian Tomlinson',
+	answer: 'Adrian Peterson'
+});
+db.trivia.insert({
+	question: 'Which NFL Quarterback, a 2010 Pro Bowler, never started a game at QB in college?',
+	a: 'Matt Schaub',
+	b: 'Matt Cassel',
+	c: 'Matt Moore',
+	d: 'Matt Flynn',
+	answer: 'Matt Cassel'
+});
+db.trivia.insert({
+	question: '4 of the first 5 picks in the 1989 draft, Troy Aikman, Barry Sanders, Derrick Thomas, and Deion Sanders, are in the Hall of Fame. Who was the bust?',
+	a: 'Aundray Bruce',
+	b: 'Blair Thomas',
+	c: 'Keith McCants',
+	d: 'Tony Mandarich',
+	answer: 'Tony Mandarich'
+});
+db.trivia.insert({
+	question: 'Which of these teams was NOT an original NFL team that moved over to the AFC',
+	a: 'Browns',
+	b: 'Colts',
+	c: 'Raiders',
+	d: 'Steelers',
+	answer: 'Raiders'
+});
+db.trivia.insert({
+	question: 'Who is the only player enshrined in Canton AND in the CFL Hall of Fame',
+	a: 'Fred Biletnikoff',
+	b: 'Warren Moon',
+	c: 'Joe Theisman',
+	d: 'Doug Flutie',
+	answer: 'Warren Moon'
+});
+db.trivia.insert({
+	question: 'This state has produced more pro football Hall of Famers than any other state',
+	a: 'California',
+	b: 'Ohio',
+	c: 'Pennsylvania',
+	d: 'Texas',
+	answer: 'Pennsylvania'
+});
+db.trivia.insert({
+	question: 'Who is the only Super Bowl MVP to have played on the losing team?',
+	a: 'Larry Fitzgerald',
+	b: 'Chuck Howley',
+	c: 'Dan Marino',
+	d: 'Steve McNair',
+	answer: 'Chuck Howley'
+});
+db.trivia.insert({
+	question: 'Emmitt Smith is the NFL\'s all-time leading rusher with 18,355 career yards. Who is second?',
+	a: 'Eric Dickerson',
+	b: 'Curtis Martin',
+	c: 'Walter Payton',
+	d: 'Barry Sanders',
+	answer: 'Walter Payton'
+});
+db.trivia.insert({
+	question: 'Who holds the single-season record for touchdown receptions with 23',
+	a: 'Randy Moss',
+	b: 'Jerry Rice',
+	c: 'Calvin Johnson',
+	d: 'Terrell Owens',
+	answer: 'Randy Moss'
+});
+db.trivia.insert({
+	question: 'In the 1985 draft, the 49ers traded picks with this franchise to move up to the 16th slot to select Jerry Rice',
+	a: 'Green Bay Packers',
+	b: 'Indianapolis Colts',
+	c: 'New England Patriots',
+	d: 'Seattle Seahawks',
+	answer: 'New England Patriots'
+});
+db.trivia.insert({
+	question: 'Who holds the record for the longest field goal in NFL history',
+	a: 'Tom Dempsey',
+	b: 'Matt Prater',
+	c: 'Jason Elam',
+	d: 'Sebastian Janikowski',
+	answer: 'Matt Prater'
+});
+db.trivia.insert({
+	question: 'Which of these defensive players did not win a Super Bowl MVP',
+	a: 'Richard Dent',
+	b: 'Lawrence Taylor',
+	c: 'Harvey Martin',
+	d: 'Ray Lewis',
+	answer: 'Lawrence Taylor'
+});
+db.trivia.insert({
+	question: 'CBS paid a record $550,000 fine after this musician had a wardrobe malfunction during the Super Bowl XXXVIII halftime show',
+	a: 'Britney Spears',
+	b: 'Janet Jackson',
+	c: 'Madonna',
+	d: 'Tina Turner',
+	answer: 'Janet Jackson'
+});
+db.trivia.insert({
+	question: 'Scott Norwood\'s "Wide Right" miss to end Super Bowl XXV was no chip shot. How long was the attempt?',
+	a: '45 yards',
+	b: '47 yards',
+	c: '49 yards',
+	d: '43 yards',
+	answer: '47 yards'
+});
+db.trivia.insert({
+	question: 'The Seattle Seahawks pay this university a licensing fee to use the "12th Man" slogan',
+	a: 'Auburn',
+	b: 'Clemson',
+	c: 'Texas A&M',
+	d: 'Wisconsin',
+	answer: 'Texas A&M'
+});
+db.trivia.insert({
+	question: 'Who is the only member of both the Pro Football Hall of Fame in Canton, Ohio and the Pro Wrestling Hall of Fame in Amsterdam, New York',
+	a: 'Alex Karras',
+	b: 'Ernie Ladd',
+	c: 'Steve McMichael',
+	d: 'Bronko Nagurski',
+	answer: 'Bronko Nagurski'
+});
+db.trivia.insert({
+	question: 'As defensive coordinator of the 1985 Bears, Buddy Ryan is hailed as the architect of this defensive scheme',
+	a: '3-4',
+	b: '46',
+	c: 'Tampa 2',
+	d: 'Zone Blitz',
+	answer: '46'
+});
+db.trivia.insert({
+	question: 'As MVP of the Super Bolw against the Seahawks, Patriots QB Tom Brady received a Chevrolet truck. To which teammate did he give the keys?',
+	a: 'Darrell Revis',
+	b: 'Rob Gronkowski',
+	c: 'Julian Edelman',
+	d: 'Malcolm Butler',
+	answer: 'Malcolm Butler'
+});
+db.trivia.insert({
+	question: 'Peyton Manning\'s playoff winning percentage is...',
+	a: '.514',
+	b: '.489',
+	c: '.458',
+	d: '.437',
+	answer: '.458'
+});
+db.trivia.insert({
+	question: 'Which Major League Baseball team selected both John Elway and Dan Marino in the 1979 amateur draft?',
+	a: 'New York Yankees',
+	b: 'Kansas City Royals',
+	c: 'Pittsburgh Pirates',
+	d: 'Los Angeles Dodgers',
+	answer: 'Kansas City Royals'
+});
+db.trivia.insert({
+	question: 'Michael Vick was the first quaterback selected in the 2001 draft. Who was second?',
+	a: 'Kyle Boller',
+	b: 'Drew Brees',
+	c: 'Joey Harrington',
+	d: 'Byron Leftwich',
+	answer: 'Drew Brees'
+});
+db.trivia.insert({
+	question: 'What team has the most NFL titles',
+	a: 'Packers',
+	b: 'Cowboys',
+	c: 'Steelers',
+	d: 'Browns',
+	answer: 'Packers'
+});
+db.trivia.insert({
+	question: 'Who has the most passing yards in a single game?',
+	a: 'Dan Fouts',
+	b: 'Norm Van Brocklin',
+	c: 'Peyton Manning',
+	d: 'Drew Brees',
+	answer: 'Norm Van Brocklin'
+});
+db.trivia.insert({
+	question: 'What year was the 1st NFL playoff game',
+	a: '1932',
+	b: '1970',
+	c: '1920',
+	d: '1967',
+	answer: '1932'
+});
+db.trivia.insert({
+	question: 'Who has the most touchdowns in a rookie season',
+	a: 'Barry Sanders',
+	b: 'Gayle Sayers',
+	c: 'Ezekiel Elliott',
+	d: 'Adrian Peterson',
+	answer: 'Gayle Sayers'
+});
+db.trivia.insert({
+	question: 'Who was the 1st Super Bowl MVP',
+	a: 'Paul Hornung',
+	b: 'Bart Starr',
+	c: 'Max McGee',
+	d: 'Vince Lombardi',
+	answer: 'Bart Starr'
+});
+db.trivia.insert({
+	question: 'Which of these QB\'s was NOT the #1 overall pick in the NFL draft?',
+	a: 'Troy Aikman',
+	b: 'Johnny Unitas',
+	c: 'Terry Bradshaw',
+	d: 'Alex Smith',
+	answer: 'Johnny Unitas'
+});
+db.trivia.insert({
+	question: 'What pick is the earliest a Kicker or Punter has ever been selected in the NFL draft',
+	a: '6',
+	b: '15 ',
+	c: '27',
+	d: '42',
+	answer: '6'
+});
