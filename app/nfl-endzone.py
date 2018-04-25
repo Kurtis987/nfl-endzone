@@ -35,27 +35,27 @@ def home():
 @app.route('/about')
 def about():
     return render_template('about.html')
-@app.route('/stats/individual')
+@app.route('/individual')
 def individual():
     return render_template('individual.html')
-@app.route('/stats/individual/rushing')
+@app.route('/rushing')
 def Rushing():
     return render_template('rushing.html')
-@app.route('/stats/individual/receiving')
+@app.route('/receiving')
 def Receiving():
     return render_template('receiving.html')
 
-@app.route('/stats/individual/sacks')
+@app.route('/sacks')
 def Sacks():
     return render_template('sacks.html')
-@app.route('/stats/individual/tackles')
+@app.route('/tackles')
 def Tackles():
     return render_template('tackles.html')
-@app.route('/stats/individual/interceptions')
+@app.route('/interceptions')
 def Interceptions():
     return render_template('interceptions.html')
 
-@app.route('/stats/team')
+@app.route('/team')
 def team():
     return render_template('team.html')
 

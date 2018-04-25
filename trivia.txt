@@ -151,7 +151,7 @@ db.trivia.insert({
 	answer: '46'
 });
 db.trivia.insert({
-	question: 'As MVP of the Super Bolw against the Seahawks, Patriots QB Tom Brady received a Chevrolet truck. To which teammate did he give the keys?',
+	question: 'As MVP of the Super Bowl against the Seahawks, Patriots QB Tom Brady received a Chevrolet truck. To which teammate did he give the keys?',
 	a: 'Darrell Revis',
 	b: 'Rob Gronkowski',
 	c: 'Julian Edelman',
