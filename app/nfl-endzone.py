@@ -59,6 +59,10 @@ def Interceptions():
 def team():
     return render_template('team.html')
 
+@app.route('/standings')
+def standings():
+    return render_template('standings.html')
+
 @app.route('/trivia')
 def trivia():
     return render_template('trivia.html')
@@ -104,10 +108,10 @@ def passing():
             # Retrieve a result set only with the fields defined in FIELDS
             # and limit the the results to 55000
             players = collection.find(projection=FIELDS, limit=5500)
-
             # Convert projects to a list in a JSON object and return the JSON data
-            return json.dumps(list(players), separators=(',', ':'))
-
+            data = json.dumps(list(players), separators=(',', ':'))
+            print(data)
+            return data
         except:
             return "no documents found"
 if __name__ == '__main__':

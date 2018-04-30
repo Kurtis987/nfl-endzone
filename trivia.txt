@@ -39,7 +39,7 @@ db.trivia.insert({
 	answer: 'Tony Mandarich'
 });
 db.trivia.insert({
-	question: 'Which of these teams was NOT an original NFL team that moved over to the AFC',
+	question: 'Which of these teams was NOT an original NFL team that moved over to the AFC?',
 	a: 'Browns',
 	b: 'Colts',
 	c: 'Raiders',
@@ -47,7 +47,7 @@ db.trivia.insert({
 	answer: 'Raiders'
 });
 db.trivia.insert({
-	question: 'Who is the only player enshrined in Canton AND in the CFL Hall of Fame',
+	question: 'Who is the only player enshrined in Canton AND in the CFL Hall of Fame?',
 	a: 'Fred Biletnikoff',
 	b: 'Warren Moon',
 	c: 'Joe Theisman',
@@ -79,7 +79,7 @@ db.trivia.insert({
 	answer: 'Walter Payton'
 });
 db.trivia.insert({
-	question: 'Who holds the single-season record for touchdown receptions with 23',
+	question: 'Who holds the single-season record for touchdown receptions with 23?',
 	a: 'Randy Moss',
 	b: 'Jerry Rice',
 	c: 'Calvin Johnson',
@@ -95,7 +95,7 @@ db.trivia.insert({
 	answer: 'New England Patriots'
 });
 db.trivia.insert({
-	question: 'Who holds the record for the longest field goal in NFL history',
+	question: 'Who holds the record for the longest field goal in NFL history?',
 	a: 'Tom Dempsey',
 	b: 'Matt Prater',
 	c: 'Jason Elam',
@@ -103,7 +103,7 @@ db.trivia.insert({
 	answer: 'Matt Prater'
 });
 db.trivia.insert({
-	question: 'Which of these defensive players did not win a Super Bowl MVP',
+	question: 'Which of these defensive players did not win a Super Bowl MVP?',
 	a: 'Richard Dent',
 	b: 'Lawrence Taylor',
 	c: 'Harvey Martin',
@@ -135,7 +135,7 @@ db.trivia.insert({
 	answer: 'Texas A&M'
 });
 db.trivia.insert({
-	question: 'Who is the only member of both the Pro Football Hall of Fame in Canton, Ohio and the Pro Wrestling Hall of Fame in Amsterdam, New York',
+	question: 'Who is the only member of both the Pro Football Hall of Fame in Canton, Ohio and the Pro Wrestling Hall of Fame in Amsterdam, New York?',
 	a: 'Alex Karras',
 	b: 'Ernie Ladd',
 	c: 'Steve McMichael',
@@ -183,7 +183,7 @@ db.trivia.insert({
 	answer: 'Drew Brees'
 });
 db.trivia.insert({
-	question: 'What team has the most NFL titles',
+	question: 'What team has the most NFL titles?',
 	a: 'Packers',
 	b: 'Cowboys',
 	c: 'Steelers',
@@ -199,7 +199,7 @@ db.trivia.insert({
 	answer: 'Norm Van Brocklin'
 });
 db.trivia.insert({
-	question: 'What year was the 1st NFL playoff game',
+	question: 'What year was the 1st NFL playoff game?',
 	a: '1932',
 	b: '1970',
 	c: '1920',
@@ -207,7 +207,7 @@ db.trivia.insert({
 	answer: '1932'
 });
 db.trivia.insert({
-	question: 'Who has the most touchdowns in a rookie season',
+	question: 'Who has the most touchdowns in a rookie season?',
 	a: 'Barry Sanders',
 	b: 'Gayle Sayers',
 	c: 'Ezekiel Elliott',
@@ -215,7 +215,7 @@ db.trivia.insert({
 	answer: 'Gayle Sayers'
 });
 db.trivia.insert({
-	question: 'Who was the 1st Super Bowl MVP',
+	question: 'Who was the 1st Super Bowl MVP?',
 	a: 'Paul Hornung',
 	b: 'Bart Starr',
 	c: 'Max McGee',
@@ -231,7 +231,7 @@ db.trivia.insert({
 	answer: 'Johnny Unitas'
 });
 db.trivia.insert({
-	question: 'What pick is the earliest a Kicker or Punter has ever been selected in the NFL draft',
+	question: 'What pick is the earliest a Kicker or Punter has ever been selected in the NFL draft?',
 	a: '6',
 	b: '15 ',
 	c: '27',

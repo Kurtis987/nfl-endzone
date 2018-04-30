@@ -7,44 +7,45 @@
   	<meta name="viewport" content="width=device-width, initial-scale=1">
 
   	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="{{ url_for ('static', filename='lib/css/bootstrap.min.css')}}">
     <link rel="stylesheet" href="{{ url_for ('static', filename='lib/css/keen-dashboards.css')}}">
     <link rel="stylesheet" href="{{ url_for ('static', filename='lib/css/dc.css')}}">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/dc/3.0.0/dc.min.css"> -->
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
 </head>
 <body>
-    <nav class="navbar">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <a class="navbar-brand" href="."><img id="logo" src="{{ url_for('static', filename='images/logo.png') }}" alt="football" width="60" height="60">NFL Endzone</a>
+    <div class="wrapper">
+        <nav class="navbar">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="."><img id="logo" src="{{ url_for('static', filename='images/logo.png') }}" alt="football" width="60" height="60">NFL Endzone</a>
 
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nfl-endzone-navbar">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nfl-endzone-navbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <ul class="nav navbar-nav navbar-right collapse navbar-collapse in" aria-expanded="true" id="nfl-endzone-navbarl">
+                    <li><a href="."><span class="glyphicon glyphicon-home"></span> Home</a></li>
+
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href=""><span class="glyphicon	glyphicon glyphicon-list-alt"></span> Stats <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                          <li><a href="/team">Team</a></li>
+                          <li><a href="/individual">Individual</a></li>
+                          <li><a href="/standings">Standings</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="trivia"><span class="glyphicon glyphicon-book"></span> Trivia</a></li>
+                    <li><a href="about"><span class="glyphicon glyphicon-info-sign"></span> About</a></li>
+                </ul>
             </div>
-            <ul class="nav navbar-nav navbar-right collapse navbar-collapse in" aria-expanded="true" id="nfl-endzone-navbarl">
-                <li><a href="."><span class="glyphicon glyphicon-home"></span> Home</a></li>
-
-                <li class="dropdown">
-                    <a class="dropdown-toggle" data-toggle="dropdown" href=""><span class="glyphicon	glyphicon glyphicon-list-alt"></span> Stats <span class="caret"></span></a>
-                    <ul class="dropdown-menu">
-                      <li><a href="/team">Team</a></li>
-                      <li><a href="/individual">Individual</a></li>
-                      <li><a href="standings.html">Standings</a></li>
-                    </ul>
-                </li>
-                <li><a href="trivia"><span class="glyphicon glyphicon-book"></span> Trivia</a></li>
-                <li><a href="about"><span class="glyphicon glyphicon-info-sign"></span> About</a></li>
-            </ul>
+        </nav>
+        <div class="container">
+            {% block content %}
+            {% endblock %}
         </div>
-    </nav>
-    <div class="container">
-        {% block content %}
-        {% endblock %}
     </div>
-
 
     <footer><h4 id="footer-heading"><a href=".">NFL Endzone</a></h4></footer>
 
@@ -52,10 +53,11 @@
   	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="{{ url_for ('static', filename='lib/js/crossfilter.js')}}"></script>
     <script src="{{ url_for ('static', filename='lib/js/d3.js')}}"></script>
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.13.0/d3.min.js"></script> -->
     <script src="{{ url_for ('static', filename='lib/js/dc.js')}}"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/dc/3.0.0/dc.min.js"> </script> -->
     <script src="{{ url_for ('static', filename='lib/js/queue.js')}}"></script>
     <script src="{{ url_for ('static', filename='lib/js/keen.min.js')}}"></script>
     <script src="{{ url_for ('static', filename='js/graph.js')}}"></script>
-    <script src="{{ url_for ('static', filename='js/trivia.js')}}"></script>
 </body>
 </html>

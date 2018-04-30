@@ -1,31 +1,23 @@
 {% extends "layout.html" %}
 {% block content %}
-   <div class="categories">
-       <h4>Offense</h4>
-       <ul>
-           <li><a href="/individual">Passing</a></li>
-           <li><a href="/rushing">Rushing</a></li>
-           <li><a href="/receiving">Receiving</a></li>
-       </ul>
-       <h4>Defense</h4>
-       <ul>
-           <li><a href="/tackles">Tackles</a></li>
-           <li><a href="/sacks">Sacks</a></li>
-           <li><a href="/interceptions">Interceptions</a></li>
-       </ul>
-   </div>
-    <div  id="outer" class="container-fluid">
+     <div  id="outer" class="container-fluid">
         <div class="row">
-            <div class="col-sm-8">
-                <div class="chart-wrapper">
-                  <div class="chart-title">
-                    Season Interceptions
-                  </div>
-                  <div class="chart-stage">
-                    <div id="individual-interceptions-row-chart"></div>
-                  </div>
-                </div>
-            </div>
+            <div class="categories col-sm-2">
+               <h4>Offense</h4>
+               <ul>
+                   <li><a href="/individual">Passing</a></li>
+                   <li><a href="/rushing">Rushing</a></li>
+                   <li><a href="/receiving">Receiving</a></li>
+               </ul>
+               <h4>Defense</h4>
+               <ul>
+                   <li><a href="/tackles">Tackles</a></li>
+                   <li><a href="/sacks">Sacks</a></li>
+                   <li><a href="/interceptions">Interceptions</a></li>
+               </ul>
+           </div>
+            <div id="interceptions-chart" class="col-sm-10"></div>
+
         </div>
     </div>
 {% endblock %}

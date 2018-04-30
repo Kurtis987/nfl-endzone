@@ -7,6 +7,12 @@ html {
   box-sizing: border-box;
 }
 
+.axis path, .axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+}
+
 body {
 	min-height: 100%;
 	margin: 0;
@@ -16,6 +22,18 @@ body {
 .categories {
     float:right;
 }
+.chart {
+    margin: 0 auto;
+}
+.chart div {
+    margin-top: 1px;
+    background: #4682b4;
+}
+.chart-title{
+    position:relative;
+    top: 100px;
+    text-align: center;
+}
 .navbar {
     background: #a4ddf1;
 }
@@ -24,10 +42,9 @@ body {
 }
 
 footer {
-	bottom: 0;
+	/*bottom: 0; */
 	height: 80px;
 	padding: 0px 15px;
-	position: absolute;
 	width: 100%;
 }
 
@@ -37,10 +54,26 @@ footer {
     margin-bottom: 0;
     padding: 40px 0 20px 0;
 }
-
+rect {
+    fill: steelblue;
+}
+.second-table {
+    margin-top: 40px;
+}
 .screen-name {
     font-weight: bold;
     margin-bottom: 0;
+}
+table {
+    background-color: #e8eef9;
+    border: 1px solid white;
+    margin-bottom: 10px;
+    width:310px;
+}
+
+th, td {
+    border: 1px solid white;
+    padding: 10px;
 }
 
 .tweet {
@@ -51,6 +84,7 @@ footer {
     margin: 0 10px 10px 0;
     border-radius: 50px;
 }
+
 .trivia-btn{
     width: 200px;
     margin: 5px;
@@ -62,6 +96,10 @@ footer {
 #welcome {
     text-align: center;
     margin-bottom: 40px;
+}
+
+.wrapper {
+    min-height: calc(100vh - 70px);
 }
 
 @media (min-width: 768px){
