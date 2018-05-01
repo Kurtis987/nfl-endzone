@@ -64,11 +64,24 @@ rect {
     font-weight: bold;
     margin-bottom: 0;
 }
+.standings {
+    text-align: center;
+}
+.standings-child {
+    margin: auto;
+}
+
+#standings-img-top {
+    margin-bottom: 5px;
+}
+#standings-img-bottom {
+    margin-top: 5px;
+}
 table {
     background-color: #e8eef9;
     border: 1px solid white;
     margin-bottom: 10px;
-    width:310px;
+    width:350px;
 }
 
 th, td {
