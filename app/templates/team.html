@@ -1,40 +1,48 @@
 {% extends "layout.html" %}
 {% block content %}
-   <div class="categories">
-       <h4>Offense</h4>
-       <ul>
-           <li><a href="/stats/team/total">Total Yds/G</a></li>
-           <li><a href="/stats/team/passing">Passing Yds/G</a></li>
-           <li><a href="/stats/team/rushing">Rushing Yds/G</a></li>
-           <li><a href="/stats/team/receiving">Receiving Yds/G</a></li>
-       </ul>
-       <h4>Defense</h4>
-       <ul>
-           <li><a href="/stats/team/total">Total Allowed Yds/G</a></li>
-           <li><a href="/stats/team/passing">Passing Allowed Yds/G</a></li>
-           <li><a href="/stats/team/rushing">Rushing Allowed Yds/G</a></li>
-           <li><a href="/stats/team/receiving">Receiving Allowed Yds/G</a></li>
-       </ul>
-       <h4>Fans</h4>
-       <ul>
-           <li><a href="/stats/team/fans-avg">Fans Per Game</a></li>
-           <li><a href="/stats/team/fans-total">Fans Season Total </a></li>
-       </ul>
-   </div>
+ <div class="categories col-sm-2">
+   <h4>Offense</h4>
+   <ul>
+       <li><a href="/total-offense">Total Yds/G</a></li>
+       <li><a href="/team-passing">Passing Yds/G</a></li>
+       <li><a href="/team-rushing">Rushing Yds/G</a></li>
+       <li><a href="/team-receiving">Receiving Yds/G</a></li>
+   </ul>
+   <h4>Defense</h4>
+   <ul>
+       <li><a href="/total-defense">Total Allowed Yds/G</a></li>
+       <li><a href="/passing-allowed">Passing Allowed Yds/G</a></li>
+       <li><a href="/rushing-allowed">Rushing Allowed Yds/G</a></li>
+       <li><a href="/receiving-allowed">Receiving Allowed Yds/G</a></li>
+   </ul>
+   <h4>Fans</h4>
+   <ul>
+       <li><a href="/fans-avg">Fans Per Game</a></li>
+       <li><a href="/fans-total">Fans Season Total </a></li>
+   </ul>
+</div>
 <div  id="outer" class="container-fluid">
     <div class="row">
-      <!-- Poverty -->
+      <!-- Total Yds/G -->
       <div class="col-sm-8">
         <div class="chart-wrapper">
           <div class="chart-title">
-            Stats
+            Wins
           </div>
           <div class="chart-stage">
-            <div id="poverty-level-row-chart"></div>
+            <div id="wins-chart"></div>
+          </div>
+        </div>
+      <div class="chart-wrapper">
+          <div class="chart-title">
+            Stadium Roof
+          </div>
+          <div class="chart-stage">
+            <div id="stadium-pie"></div>
           </div>
         </div>
       </div>
-      <!-- Poverty -->
+      <!-- Total Yds/G -->
     </div>
 </div>
 {% endblock %}

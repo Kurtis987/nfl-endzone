@@ -67,6 +67,42 @@ def standings():
 def trivia():
     return render_template('trivia.html')
 
+@app.route('/total-offense')
+def totalOffense():
+    return render_template('offense-team-total.html')
+@app.route('/team-passing')
+def teamPassing():
+    return render_template('offense-team-passing.html')
+@app.route('/team-rushing')
+def teamRushing():
+    return render_template('offense-team-rushing.html')
+@app.route('/team-receiving')
+def teamReceiving():
+    return render_template('offense-team-receiving.html')
+
+@app.route('/total-defense')
+def totalDefense():
+    return render_template('defense-team-total.html')
+@app.route('/passing-allowed')
+def passingAllowed():
+    return render_template('defense-team-passing.html')
+@app.route('/rushing-allowed')
+def rushingAllowed():
+    return render_template('defense-team-rushing.html')
+@app.route('/receiving-allowed')
+def receivingAllowed():
+    return render_template('defense-team-receiving.html')
+@app.route('/fans-avg')
+def fansAvg():
+    return render_template('fans-avg.html')
+@app.route('/fans-total')
+def fansTotal():
+    return render_template('fans-total.html')
+
+
+
+
+
 @app.route('/trivia/dump')
 def getTrivia():
     FIELDS = {
@@ -91,7 +127,7 @@ def getTrivia():
             return "no documents found"
 
 @app.route('/stats/dump')
-def passing():
+def individualStats():
     # A constant that defines the record fields that we wish to retrieve.
     FIELDS = {
         '_id': False, 'name': True, 'city': True, 'team': True, 'rushing': True,
@@ -110,6 +146,33 @@ def passing():
             players = collection.find(projection=FIELDS, limit=5500)
             # Convert projects to a list in a JSON object and return the JSON data
             data = json.dumps(list(players), separators=(',', ':'))
+            print(data)
+            return data
+        except:
+            return "no documents found"
+
+@app.route('/team/dump')
+def teamStats():
+    # A constant that defines the record fields that we wish to retrieve.
+    FIELDS = {
+        '_id': False, 'city': True, 'name': True, 'wins': True, 'losses': True,
+        'stadium-roof': True, 'offenseTotal': True, 'offensePassing': True, 'offenseRushing': True,
+        'offenseReceiving': True, 'defenseTotal': True, 'defensePassing': True,
+        'defenseRushing': True, 'defenseReceiving': True, 'fansAvgPerGame': True,
+        'fansSeasonTotal': True
+    }
+
+    # Open a connection to MongoDB using a with statement such that the
+    # connection will be closed as soon as we exit the with statement
+    with MongoClient(MONGODB_HOST, MONGODB_PORT) as conn:
+        try:
+            # Define which collection we wish to access
+            collection = conn[DBS_NAME][COLLECTION_TWO]
+            # Retrieve a result set only with the fields defined in FIELDS
+            # and limit the the results to 55000
+            teams = collection.find(projection=FIELDS, limit=5500)
+            # Convert projects to a list in a JSON object and return the JSON data
+            data = json.dumps(list(teams), separators=(',', ':'))
             print(data)
             return data
         except:

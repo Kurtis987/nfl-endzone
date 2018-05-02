@@ -1,704 +1,544 @@
 db.NFLTeams.insert({
-	city: 'Minnesota',
-	name: 'Vikings',
-	wins: 13,
-	losses: 3,
-	offense: {
-		total:356.9,
-		passing:234.6,
-		rushing:122.3,
-		receiving:245.6
-	},
-	defense: {
-		total:275.9,
-		passing:192.4,
-		rushing:83.6,
-		receiving:208.1
-	},
-	fans: {
-		avgPerGame:'68,744',
-		seasonTotal:'1,099,905'
-	}
+	"city": "Minnesota",
+	"name": "Vikings",
+	"wins": 13,
+	"losses": 3,
+	"stadium-roof":"fixed",
+	"offenseTotal": 356.9,
+	"offensePassing": 234.6,
+	"offenseRushing": 122.3,
+	"offenseReceiving": 245.6,
+	"defenseTotal": 275.9,
+	"defensePassing": 192.4,
+	"defenseRushing": 83.6,
+	"defenseReceiving": 208.1,
+	"fansAvgPerGame": 68744,
+	"fansSeasonTotal": 1099905
 });
 db.NFLTeams.insert({
-	city: 'New England',
-	name: 'Patriots',
-	wins: 13,
-	losses: 3,
-	offense: {
-		total:394.2,
-		passing:276.1,
-		rushing:118.1,
-		receiving:288.7
-	},
-	defense: {
-		total:366.0,
-		passing:251.2,
-		rushing:114.8,
-		receiving:269.9
-	},
-	fans: {
-		avgPerGame:'68,689',
-		seasonTotal:'1,099,028'
-	}
+	"city": 'New England',
+	"name": 'Patriots',
+	"wins": 13,
+	"losses": 3,
+	"stadium-roof":"open",
+	"offenseTotal":394.2,
+	"offensePassing":276.1,
+	"offenseRushing":118.1,
+	"offenseReceiving":288.7,
+	"defenseTotal":366.0,
+	"defensePassing":251.2,
+	"defenseRushing":114.8,
+	"defenseReceiving":269.9,
+	"fansAvgPerGame":68689,
+	"fansSeasonTotal":1099028
 });
 db.NFLTeams.insert({
-	city: 'Philadelphia',
-	name: 'Eagles',
-	wins: 13,
-	losses: 3,
-	offense: {
-		total:365.8,
-		passing:233.6,
-		rushing:132.2,
-		receiving:247.9
-	},
-	defense: {
-		total:306.5,
-		passing:227.3,
-		rushing:79.2,
-		receiving:242.7
-	},
-	fans: {
-		avgPerGame:'69,821',
-		seasonTotal:'1,117,141'
-	}
+	"city": 'Philadelphia',
+	"name": 'Eagles',
+	"wins": 13,
+	"losses": 3,
+	"stadium-roof":"open",
+	"offenseTotal":365.8,
+	"offensePassing":233.6,
+	"offenseRushing":132.2,
+	"offenseReceiving":247.9,
+	"defenseTotal":306.5,
+	"defensePassing":227.3,
+	"defenseRushing":79.2,
+	"defenseReceiving":242.7,
+	"fansAvgPerGame":69821,
+	"fansSeasonTotal":1117141
 });
 db.NFLTeams.insert({
-	city: 'Pittsburgh',
-	name: 'Steelers',
-	wins: 13,
-	losses: 3,
-	offense: {
-		total:377.9,
-		passing:273.8,
-		rushing:104.2,
-		receiving:283.4
-	},
-	defense: {
-		total:306.9,
-		passing:201.1,
-		rushing:105.8,
-		receiving:225.6
-	},
-	fans: {
-		avgPerGame:'64,780',
-		seasonTotal:'1,036,491'
-	}
+	"city": 'Pittsburgh',
+	"name": 'Steelers',
+	"wins": 13,
+	"losses": 3,
+	"stadium-roof":"open",
+	"offenseTotal":377.9,
+	"offensePassing":273.8,
+	"offenseRushing":104.2,
+	"offenseReceiving":283.4,
+	"defenseTotal":306.9,
+	"defensePassing":201.1,
+	"defenseRushing":105.8,
+	"defenseReceiving":225.6,
+	"fansAvgPerGame":64780,
+	"fansSeasonTotal":1036491
 });
 db.NFLTeams.insert({
-	city: 'Carolina',
-	name: 'Panthers',
-	wins: 11,
-	losses: 5,
-	offense: {
-		total:323.7,
-		passing:192.3,
-		rushing:131.4,
-		receiving:207.4
-	},
-	defense: {
-		total:317.1,
-		passing:229.1,
-		rushing:88.1,
-		receiving:248.1
-	},
-	fans: {
-		avgPerGame:'70,872',
-		seasonTotal:'1,133,961'
-	}
+	"city": 'Carolina',
+	"name": 'Panthers',
+	"wins": 11,
+	"losses": 5,
+	"stadium-roof": "open",
+	"offenseTotal":323.7,
+	"offensePassing":192.3,
+	"offenseRushing":131.4,
+	"offenseReceiving":207.4,
+	"defenseTotal":317.1,
+	"defensePassing":229.1,
+	"defenseRushing":88.1,
+	"defenseReceiving":248.1,
+	"fansAvgPerGame":70872,
+	"fansSeasonTotal":1133961
 });
 db.NFLTeams.insert({
-	city: 'Los Angeles',
-	name: 'Rams',
-	wins: 11,
-	losses: 5,
-	offense: {
-		total:361.5,
-		passing:239.4,
-		rushing:122.1,
-		receiving:251.4
-	},
-	defense: {
-		total:339.5,
-		passing:217.2,
-		rushing:122.3,
-		receiving:237.4
-	},
-	fans: {
-		avgPerGame:'66,391',
-		seasonTotal:'1,062,261'
-	}
+	"city": 'Los Angeles',
+	"name": 'Rams',
+	"wins": 11,
+	"losses": 5,
+	"stadium-roof":"open",
+	"offenseTotal":361.5,
+	"offensePassing":239.4,
+	"offenseRushing":122.1,
+	"offenseReceiving":251.4,
+	"defenseTotal":339.5,
+	"defensePassing":217.2,
+	"defenseRushing":122.3,
+	"defenseReceiving":237.4,
+	"fansAvgPerGame":66391,
+	"fansSeasonTotal":1062261
 });
 db.NFLTeams.insert({
-	city: 'New Orleans',
-	name: 'Saints',
-	wins: 11,
-	losses: 5,
-	offense: {
-		total:391.2,
-		passing:261.8,
-		rushing:129.4,
-		receiving:270.9
-	},
-	defense: {
-		total:336.5,
-		passing:224.8,
-		rushing:111.7,
-		receiving:242.8
-	},
-	fans: {
-		avgPerGame:'71,627',
-		seasonTotal:'1,146,046'
-	}
+	"city": 'New Orleans',
+	"name": 'Saints',
+	"wins": 11,
+	"losses": 5,
+	"stadium-roof":"fixed",
+	"offenseTotal":391.2,
+	"offensePassing":261.8,
+	"offenseRushing":129.4,
+	"offenseReceiving":270.9,
+	"defenseTotal":336.5,
+	"defensePassing":224.8,
+	"defenseRushing":111.7,
+	"defenseReceiving":242.8,
+	"fansAvgPerGame":71627,
+	"fansSeasonTotal":1146046
 });
 db.NFLTeams.insert({
-	city: 'Atlanta',
-	name: 'Falcons',
-	wins: 10,
-	losses: 6,
-	offense: {
-		total:364.8,
-		passing:249.4,
-		rushing:115.4,
-		receiving:259.1
-	},
-	defense: {
-		total:315,
-		passing:214.3,
-		rushing:104.1,
-		receiving:232.8
-	},
-	fans: {
-		avgPerGame:'70,191',
-		seasonTotal:'1,123,058'
-	}
+	"city": 'Atlanta',
+	"name": 'Falcons',
+	"wins": 10,
+	"losses": 6,
+	"stadium-roof":"retractable",
+	"offenseTotal":364.8,
+	"offensePassing":249.4,
+	"offenseRushing":115.4,
+	"offenseReceiving":259.1,
+	"defenseTotal":315,
+	"defensePassing":214.3,
+	"defenseRushing":104.1,
+	"defenseReceiving":232.8,
+	"fansAvgPerGame":70191,
+	"fansSeasonTotal":1123058
 });
 db.NFLTeams.insert({
-	city: 'Jacksonville',
-	name: 'Jaguars',
-	wins: 10,
-	losses: 6,
-	offense: {
-		total:365.9,
-		passing:224.6,
-		rushing:141.4,
-		receiving:232.2
-	},
-	defense: {
-		total:286.1,
-		passing:169.9,
-		rushing:114.8,
-		receiving:192.1
-	},
-	fans: {
-		avgPerGame:'65,598',
-		seasonTotal:'1,049,568'
-	}
+	"city": 'Jacksonville',
+	"name": 'Jaguars',
+	"wins": 10,
+	"losses": 6,
+	"stadium-roof":"open",
+	"offenseTotal":365.9,
+	"offensePassing":224.6,
+	"offenseRushing":141.4,
+	"offenseReceiving":232.2,
+	"defenseTotal":286.1,
+	"defensePassing":169.9,
+	"defenseRushing":114.8,
+	"defenseReceiving":192.1,
+	"fansAvgPerGame":65598,
+	"fansSeasonTotal":1049568
 });
 db.NFLTeams.insert({
-	city: 'Kansas City',
-	name: 'Chiefs',
-	wins: 10,
-	losses: 6,
-	offense: {
-		total:375.4,
-		passing:256.5,
-		rushing:118.9,
-		receiving:270.4
-	},
-	defense: {
-		total:365.1,
-		passing:247.0,
-		rushing:118.1,
-		receiving:258.2
-	},
-	fans: {
-		avgPerGame:'70,885',
-		seasonTotal:'1,134,166'
-	}
+	"city": 'Kansas City',
+	"name": 'Chiefs',
+	"wins": 10,
+	"losses": 6,
+	"stadium-roof":"open",
+	"offenseTotal":375.4,
+	"offensePassing":256.5,
+	"offenseRushing":118.9,
+	"offenseReceiving":270.4,
+	"defenseTotal":365.1,
+	"defensePassing":247.0,
+	"defenseRushing":118.1,
+	"defenseReceiving":258.2,
+	"fansAvgPerGame":70885,
+	"fansSeasonTotal":1134166
 });
 db.NFLTeams.insert({
-	city: 'Baltimore',
-	name: 'Ravens',
-	wins: 9,
-	losses: 7,
-	offense: {
-		total:305.4,
-		passing:189.4,
-		rushing:116.0,
-		receiving:202.2
-	},
-	defense: {
-		total:325.1,
-		passing:213.8,
-		rushing:111.2,
-		receiving:231.3
-	},
-	fans: {
-		avgPerGame:'68,020',
-		seasonTotal:'1,088,326'
-	}
+	"city": 'Baltimore',
+	"name": 'Ravens',
+	"wins": 9,
+	"losses": 7,
+	"stadium-roof":"open",
+	"offenseTotal":305.4,
+	"offensePassing":189.4,
+	"offenseRushing":116.0,
+	"offenseReceiving":202.2,
+	"defenseTotal":325.1,
+	"defensePassing":213.8,
+	"defenseRushing":111.2,
+	"defenseReceiving":231.3,
+	"fansAvgPerGame":68020,
+	"fansSeasonTotal":1088326
 });
 db.NFLTeams.insert({
-	city: 'Buffalo',
-	name: 'Bills',
-	wins: 9,
-	losses: 7,
-	offense: {
-		total:302.6,
-		passing:176.6,
-		rushing:126.1,
-		receiving:192.9
-	},
-	defense: {
-		total:355.1,
-		passing:230.5,
-		rushing:124.6,
-		receiving:240.2
-	},
-	fans: {
-		avgPerGame:'65,057',
-		seasonTotal:'1,040,917'
-	}
+	"city": 'Buffalo',
+	"name": 'Bills',
+	"wins": 9,
+	"losses": 7,
+	"stadium-roof":"open",
+	"offenseTotal":302.6,
+	"offensePassing":176.6,
+	"offenseRushing":126.1,
+	"offenseReceiving":192.9,
+	"defenseTotal":355.1,
+	"defensePassing":230.5,
+	"defenseRushing":124.6,
+	"defenseReceiving":240.2,
+	"fansAvgPerGame":65057,
+	"fansSeasonTotal":1040917
 });
 db.NFLTeams.insert({
-	city: 'Dallas',
-	name: 'Cowboys',
-	wins: 9,
-	losses: 7,
-	offense: {
-		total:331.9,
-		passing:196.3,
-		rushing:135.6,
-		receiving:207.9
-	},
-	defense: {
-		total:318.1,
-		passing:214.1,
-		rushing:104.0,
-		receiving:234.1
-	},
-	fans: {
-		avgPerGame:'81,825',
-		seasonTotal:'1,309,211'
-	}
+	"city": 'Dallas',
+	"name": 'Cowboys',
+	"wins": 9,
+	"losses": 7,
+	"stadium-roof":"retractable",
+	"offenseTotal":331.9,
+	"offensePassing":196.3,
+	"offenseRushing":135.6,
+	"offenseReceiving":207.9,
+	"defenseTotal":318.1,
+	"defensePassing":214.1,
+	"defenseRushing":104.0,
+	"defenseReceiving":234.1,
+	"fansAvgPerGame":81825,
+	"fansSeasonTotal":1309211
 });
 db.NFLTeams.insert({
-	city: 'Detroit',
-	name: 'Lionss',
-	wins: 9,
-	losses: 7,
-	offense: {
-		total:337.8,
-		passing:261.4,
-		rushing:76.3,
-		receiving:279.4
-	},
-	defense: {
-		total:355.8,
-		passing:243.2,
-		rushing:112.5,
-		receiving:257.5
-	},
-	fans: {
-		avgPerGame:'65,422',
-		seasonTotal:'1,046,765'
-	}
+	"city": 'Detroit',
+	"name": 'Lions',
+	"wins": 9,
+	"losses": 7,
+	"stadium-roof":"fixed",
+	"offenseTotal":337.8,
+	"offensePassing":261.4,
+	"offenseRushing":76.3,
+	"offenseReceiving":279.4,
+	"defenseTotal":355.8,
+	"defensePassing":243.2,
+	"defenseRushing":112.5,
+	"defenseReceiving":257.5,
+	"fansAvgPerGame":65422,
+	"fansSeasonTotal":1046765
 });
 db.NFLTeams.insert({
-	city: 'Los Angeles',
-	name: 'Chargers',
-	wins: 9,
-	losses: 7,
-	offense: {
-		total:376.6,
-		passing:276.9,
-		rushing:99.7,
-		receiving:284.4
-	},
-	defense: {
-		total:328.4,
-		passing:197.2,
-		rushing:131.1,
-		receiving:213.6
-	},
-	fans: {
-		avgPerGame:'48,960',
-		seasonTotal:'783,367'
-	}
+	"city": 'Los Angeles',
+	"name": 'Chargers',
+	"wins": 9,
+	"losses": 7,
+	"stadium-roof":"open",
+	"offenseTotal":376.6,
+	"offensePassing":276.9,
+	"offenseRushing":99.7,
+	"offenseReceiving":284.4,
+	"defenseTotal":328.4,
+	"defensePassing":197.2,
+	"defenseRushing":131.1,
+	"defenseReceiving":213.6,
+	"fansAvgPerGame":48960,
+	"fansSeasonTotal":783367
 });
 db.NFLTeams.insert({
-	city: 'Seattle',
-	name: 'Seahawks',
-	wins: 9,
-	losses: 7,
-	offense: {
-		total:330.4,
-		passing:228.6,
-		rushing:101.8,
-		receiving:248.7
-	},
-	defense: {
-		total:323.2,
-		passing:209.2,
-		rushing:114.0,
-		receiving:226.0
-	},
-	fans: {
-		avgPerGame:'70,621',
-		seasonTotal:'1,129,943'
-	}
+	"city": 'Seattle',
+	"name": 'Seahawks',
+	"wins": 9,
+	"losses": 7,
+	"stadium-roof":"open",
+	"offenseTotal":330.4,
+	"offensePassing":228.6,
+	"offenseRushing":101.8,
+	"offenseReceiving":248.7,
+	"defenseTotal":323.2,
+	"defensePassing":209.2,
+	"defenseRushing":114.0,
+	"defenseReceiving":226.0,
+	"fansAvgPerGame":70621,
+	"fansSeasonTotal":1129943
 });
 db.NFLTeams.insert({
-	city: 'Tennessee',
-	name: 'Titans',
-	wins: 9,
-	losses: 7,
-	offense: {
-		total:314.0,
-		passing:199.4,
-		rushing:114.6,
-		receiving:212.1
-	},
-	defense: {
-		total:328.0,
-		passing:239.2,
-		rushing:88.8,
-		receiving:256.2
-	},
-	fans: {
-		avgPerGame:'65,007',
-		seasonTotal:'1,040,119'
-	}
+	"city": 'Tennessee',
+	"name": 'Titans',
+	"wins": 9,
+	"losses": 7,
+	"stadium-roof":"open",
+	"offenseTotal":314.0,
+	"offensePassing":199.4,
+	"offenseRushing":114.6,
+	"offenseReceiving":212.1,
+	"defenseTotal":328.0,
+	"defensePassing":239.2,
+	"defenseRushing":88.8,
+	"defenseReceiving":256.2,
+	"fansAvgPerGame":65007,
+	"fansSeasonTotal":1040119
 });
 db.NFLTeams.insert({
-	city: 'Arizona',
-	name: 'Cardinals',
-	wins: 8,
-	losses: 8,
-	offense: {
-		total:314.1,
-		passing:227.5,
-		rushing:86.6,
-		receiving:248.7
-	},
-	defense: {
-		total:310.9,
-		passing:221.3,
-		rushing:89.6,
-		receiving:237.2
-	},
-	fans: {
-		avgPerGame:'66,442',
-		seasonTotal:'1,063,084'
-	}
+	"city": 'Arizona',
+	"name": 'Cardinals',
+	"wins": 8,
+	"losses": 8,
+	"offenseTotal":314.1,
+	"offensePassing":227.5,
+	"offenseRushing":86.6,
+	"offenseReceiving":248.7,
+	"defenseTotal":310.9,
+	"defensePassing":221.3,
+	"defenseRushing":89.6,
+	"defenseReceiving":237.2,
+	"fansAvgPerGame":66442,
+	"fansSeasonTotal":1063084
 });
 db.NFLTeams.insert({
-	city: 'Cincinnati',
-	name: 'Bengals',
-	wins: 7,
-	losses: 9,
-	offense: {
-		total:280.5,
-		passing:195.1,
-		rushing:85.4,
-		receiving:211.6
-	},
-	defense: {
-		total:339.1,
-		passing:211.2,
-		rushing:127.9,
-		receiving:228.6
-	},
-	fans: {
-		avgPerGame:'61,157',
-		seasonTotal:'978,523'
-	}
+	"city": 'Cincinnati',
+	"name": 'Bengals',
+	"wins": 7,
+	"losses": 9,
+	"stadium-roof": "retractable",
+	"offenseTotal":280.5,
+	"offensePassing":195.1,
+	"offenseRushing":85.4,
+	"offenseReceiving":211.6,
+	"defenseTotal":339.1,
+	"defensePassing":211.2,
+	"defenseRushing":127.9,
+	"defenseReceiving":228.6,
+	"fansAvgPerGame":61157,
+	"fansSeasonTotal":978523
 });
 db.NFLTeams.insert({
-	city: 'Green Bay',
-	name: 'Packers',
-	wins: 7,
-	losses: 9,
-	offense: {
-		total:305.7,
-		passing:197.9,
-		rushing:107.8,
-		receiving:220.8
-	},
-	defense: {
-		total:348.9,
-		passing:236.8,
-		rushing:112.1,
-		receiving:252.6
-	},
-	fans: {
-		avgPerGame:'73,972',
-		seasonTotal:'1,183,556'
-	}
+	"city": 'Green Bay',
+	"name": 'Packers',
+	"wins": 7,
+	"losses": 9,
+	"stadium-roof":"open",
+	"offenseTotal":305.7,
+	"offensePassing":197.9,
+	"offenseRushing":107.8,
+	"offenseReceiving":220.8,
+	"defenseTotal":348.9,
+	"defensePassing":236.8,
+	"defenseRushing":112.1,
+	"defenseReceiving":252.6,
+	"fansAvgPerGame":73972,
+	"fansSeasonTotal":1183556
 });
 db.NFLTeams.insert({
-	city: 'Washington',
-	name: 'Redskins',
-	wins: 7,
-	losses: 9,
-	offense: {
-		total:324.9,
-		passing:234.4,
-		rushing:90.5,
-		receiving:255.8
-	},
-	defense: {
-		total:347.9,
-		passing:213.8,
-		rushing:134.1,
-		receiving:230.8
-	},
-	fans: {
-		avgPerGame:'71,102',
-		seasonTotal:'1,137,639'
-	}
+	"city": 'Washington',
+	"name": 'Redskins',
+	"wins": 7,
+	"losses": 9,
+	"stadium-roof":"open",
+	"offenseTotal":324.9,
+	"offensePassing":234.4,
+	"offenseRushing":90.5,
+	"offenseReceiving":255.8,
+	"defenseTotal":347.9,
+	"defensePassing":213.8,
+	"defenseRushing":134.1,
+	"defenseReceiving":230.8,
+	"fansAvgPerGame":71102,
+	"fansSeasonTotal":1137639
 });
 db.NFLTeams.insert({
-	city: 'Miami',
-	name: 'Dolphins',
-	wins: 6,
-	losses: 10,
-	offense: {
-		total:307.7,
-		passing:220.9,
-		rushing:86.8,
-		receiving:237.0
-	},
-	defense: {
-		total:335.7,
-		passing:225.2,
-		rushing:110.5,
-		receiving:236.8
-	},
-	fans: {
-		avgPerGame:'65,697',
-		seasonTotal:'1,051,161'
-	}
+	"city": 'Miami',
+	"name": 'Dolphins',
+	"wins": 6,
+	"losses": 10,
+	"stadium-roof":"open",
+	"offenseTotal":307.7,
+	"offensePassing":220.9,
+	"offenseRushing":86.8,
+	"offenseReceiving":237.0,
+	"defenseTotal":335.7,
+	"defensePassing":225.2,
+	"defenseRushing":110.5,
+	"defenseReceiving":236.8,
+	"fansAvgPerGame":65697,
+	"fansSeasonTotal":1051161
 });
 db.NFLTeams.insert({
-	city: 'Oakland',
-	name: 'Raiders',
-	wins: 6,
-	losses: 10,
-	offense: {
-		total:324.1,
-		passing:226.9,
-		rushing:97.1,
-		receiving:235.1
-	},
-	defense: {
-		total:350.1,
-		passing:241.1,
-		rushing:108.9,
-		receiving:252.9
-	},
-	fans: {
-		avgPerGame:'61,846',
-		seasonTotal:'989,547'
-	}
+	"city": 'Oakland',
+	"name": 'Raiders',
+	"wins": 6,
+	"losses": 10,
+	"stadium-roof":"open",
+	"offenseTotal":324.1,
+	"offensePassing":226.9,
+	"offenseRushing":97.1,
+	"offenseReceiving":235.1,
+	"defenseTotal":350.1,
+	"defensePassing":241.1,
+	"defenseRushing":108.9,
+	"defenseReceiving":252.9,
+	"fansAvgPerGame":61846,
+	"fansSeasonTotal":989547
 });
 db.NFLTeams.insert({
-	city: 'San Francisco',
-	name: '49ers',
-	wins: 6,
-	losses: 10,
-	offense: {
-		total:349.2,
-		passing:245.3,
-		rushing:103.9,
-		receiving:264.7
-	},
-	defense: {
-		total:351.6,
-		passing:235.2,
-		rushing:116.3,
-		receiving:246.4
-	},
-	fans: {
-		avgPerGame:'69,000',
-		seasonTotal:'1,104,010'
-	}
+	"city": 'San Francisco',
+	"name": '49ers',
+	"wins": 6,
+	"losses": 10,
+	"stadium-roof":"open",
+	"offenseTotal":349.2,
+	"offensePassing":245.3,
+	"offenseRushing":103.9,
+	"offenseReceiving":264.7,
+	"defenseTotal":351.6,
+	"defensePassing":235.2,
+	"defenseRushing":116.3,
+	"defenseReceiving":246.4,
+	"fansAvgPerGame":69000,
+	"fansSeasonTotal":1104010
 });
 db.NFLTeams.insert({
-	city: 'Chicago',
-	name: 'Bears',
-	wins: 5,
-	losses: 11,
-	offense: {
-		total:287.4,
-		passing:175.7,
-		rushing:111.8,
-		receiving:192.8
-	},
-	defense: {
-		total:319.1,
-		passing:211.0,
-		rushing:108.1,
-		receiving:228.3
-	},
-	fans: {
-		avgPerGame:'63,888',
-		seasonTotal:'1,022,219'
-	}
+	"city": 'Chicago',
+	"name": 'Bears',
+	"wins": 5,
+	"losses": 11,
+	"stadium-roof":"open",
+	"offenseTotal":287.4,
+	"offensePassing":175.7,
+	"offenseRushing":111.8,
+	"offenseReceiving":192.8,
+	"defenseTotal":319.1,
+	"defensePassing":211.0,
+	"defenseRushing":108.1,
+	"defenseReceiving":228.3,
+	"fansAvgPerGame":63888,
+	"fansSeasonTotal":1022219
 });
 db.NFLTeams.insert({
-	city: 'Denver',
-	name: 'Broncos',
-	wins: 5,
-	losses: 11,
-	offense: {
-		total:324.1,
-		passing:208.3,
-		rushing:115.8,
-		receiving:229.2
-	},
-	defense: {
-		total:290.0,
-		passing:200.6,
-		rushing:89.4,
-		receiving:211.6
-	},
-	fans: {
-		avgPerGame:'69,228',
-		seasonTotal:'1,107,654'
-	}
+	"city": 'Denver',
+	"name": 'Broncos',
+	"wins": 5,
+	"losses": 11,
+	"stadium-roof":"open",
+	"offenseTotal":324.1,
+	"offensePassing":208.3,
+	"offenseRushing":115.8,
+	"offenseReceiving":229.2,
+	"defenseTotal":290.0,
+	"defensePassing":200.6,
+	"defenseRushing":89.4,
+	"defenseReceiving":211.6,
+	"fansAvgPerGame":69228,
+	"fansSeasonTotal":1107654
 });
 db.NFLTeams.insert({
-	city: 'New York',
-	name: 'Jets',
-	wins: 5,
-	losses: 11,
-	offense: {
-		total:305.2,
-		passing:198.9,
-		rushing:106.4,
-		receiving:218.8
-	},
-	defense: {
-		total:352.2,
-		passing:234.3,
-		rushing:117.9,
-		receiving:244.0
-	},
-	fans: {
-		avgPerGame:'71,459',
-		seasonTotal:'1,143,358'
-	}
+	"city": 'New York',
+	"name": 'Jets',
+	"wins": 5,
+	"losses": 11,
+	"stadium-roof":"open",
+	"offenseTotal":305.2,
+	"offensePassing":198.9,
+	"offenseRushing":106.4,
+	"offenseReceiving":218.8,
+	"defenseTotal":352.2,
+	"defensePassing":234.3,
+	"defenseRushing":117.9,
+	"defenseReceiving":244.0,
+	"fansAvgPerGame":71459,
+	"fansSeasonTotal":1143358
 });
 db.NFLTeams.insert({
-	city: 'Tampa Bay',
-	name: 'Buccaneers',
-	wins: 5,
-	losses: 11,
-	offense: {
-		total:363.5,
-		passing:272.9,
-		rushing:90.6,
-		receiving:287.9
-	},
-	defense: {
-		total:378.1,
-		passing:260.6,
-		rushing:117.5,
-		receiving:269.1
-	},
-	fans: {
-		avgPerGame:'64,810',
-		seasonTotal:'1,036,961'
-	}
+	"city": 'Tampa Bay',
+	"name": 'Buccaneers',
+	"wins": 5,
+	"losses": 11,
+	"stadium-roof":"open",
+	"offenseTotal":363.5,
+	"offensePassing":272.9,
+	"offenseRushing":90.6,
+	"offenseReceiving":287.9,
+	"defenseTotal":378.1,
+	"defensePassing":260.6,
+	"defenseRushing":117.5,
+	"defenseReceiving":269.1,
+	"fansAvgPerGame":64810,
+	"fansSeasonTotal":1036961
 });
 db.NFLTeams.insert({
-	city: 'Houston',
-	name: 'Texans',
-	wins: 4,
-	losses: 12,
-	offense: {
-		total:320.0,
-		passing:204.9,
-		rushing:115.1,
-		receiving:227.8
-	},
-	defense: {
-		total:346.6,
-		passing:237.4,
-		rushing:109.2,
-		receiving:249.9
-	},
-	fans: {
-		avgPerGame:'67,527',
-		seasonTotal:'1,080,447'
-	}
+	"city": 'Houston',
+	"name": 'Texans',
+	"wins": 4,
+	"losses": 12,
+	"stadium-roof":"retractable",
+	"offenseTotal":320.0,
+	"offensePassing":204.9,
+	"offenseRushing":115.1,
+	"offenseReceiving":227.8,
+	"defenseTotal":346.6,
+	"defensePassing":237.4,
+	"defenseRushing":109.2,
+	"defenseReceiving":249.9,
+	"fansAvgPerGame":67527,
+	"fansSeasonTotal":1080447
 });
 db.NFLTeams.insert({
-	city: 'Indianapolis',
-	name: 'Colts',
-	wins: 4,
-	losses: 12,
-	offense: {
-		total:284.6,
-		passing:180.8,
-		rushing:103.8,
-		receiving:201.6
-	},
-	defense: {
-		total:367.1,
-		passing:246.6,
-		rushing:120.4,
-		receiving:257.7
-	},
-	fans: {
-		avgPerGame:'63,877',
-		seasonTotal:'1,022,042'
-	}
+	"city": 'Indianapolis',
+	"name": 'Colts',
+	"wins": 4,
+	"losses": 12,
+	"stadium-roof":"retractable",
+	"offenseTotal":284.6,
+	"offensePassing":180.8,
+	"offenseRushing":103.8,
+	"offenseReceiving":201.6,
+	"defenseTotal":367.1,
+	"defensePassing":246.6,
+	"defenseRushing":120.4,
+	"defenseReceiving":257.7,
+	"fansAvgPerGame":63877,
+	"fansSeasonTotal":1022042
 });
 db.NFLTeams.insert({
-	city: 'New York',
-	name: 'Giants',
-	wins: 3,
-	losses: 13,
-	offense: {
-		total:314.2,
-		passing:217.4,
-		rushing:96.8,
-		receiving:230.0
-	},
-	defense: {
-		total:373.2,
-		passing:252.4,
-		rushing:120.8,
-		receiving:262.4
-	},
-	fans: {
-		avgPerGame:'73,939',
-		seasonTotal:'1,183,037'
-	}
+	"city": 'New York',
+	"name": 'Giants',
+	"wins": 3,
+	"losses": 13,
+	"stadium-roof":"open",
+	"offenseTotal":314.2,
+	"offensePassing":217.4,
+	"offenseRushing":96.8,
+	"offenseReceiving":230.0,
+	"defenseTotal":373.2,
+	"defensePassing":252.4,
+	"defenseRushing":120.8,
+	"defenseReceiving":262.4,
+	"fansAvgPerGame":73939,
+	"fansSeasonTotal":1183037
 });
 db.NFLTeams.insert({
-	city: 'Cleveland',
-	name: 'Browns',
-	wins: 0,
-	losses: 16,
-	offense: {
-		total:308.9,
-		passing:201.8,
-		rushing:107.1,
-		receiving:221.1
-	},
-	defense: {
-		total:328.1,
-		passing:230.2,
-		rushing:97.9,
-		receiving:242.6
-	},
-	fans: {
-		avgPerGame:'65,422',
-		seasonTotal:'1,046,765'
-	}
+	"city": 'Cleveland',
+	"name": 'Browns',
+	"wins": 0,
+	"losses": 16,
+	"stadium-roof":"open",
+	"offenseTotal":308.9,
+	"offensePassing":201.8,
+	"offenseRushing":107.1,
+	"offenseReceiving":221.1,
+	"defenseTotal":328.1,
+	"defensePassing":230.2,
+	"defenseRushing":97.9,
+	"defenseReceiving":242.6,
+	"fansAvgPerGame":65422,
+	"fansSeasonTotal":1046765
 });
+	
