@@ -1,8 +1,8 @@
 {% extends "layout.html" %}
 {% block content %}
     <div class="row">
-        <div class="col-md-4 standings"><img class="standings-child" id="standings-img-top" src={{ url_for ('static', filename='images/ravens-bengals.jpg')}} alt="Eagles Hit" height="300" width="300"> </div>
-        <div class="col-md-4 standings">
+        <div class="col-lg-4 standings"><img class="standings-child" id="standings-img-top" src={{ url_for ('static', filename='images/ravens-bengals.jpg')}} alt="Eagles Hit" height="300" width="300"> </div>
+        <div class="col-lg-4 standings">
           <table class="standings-child">
        <tr>
            <th colspan="4"><img src={{ url_for ('static', filename='images/AFC.svg')}} alt="American Football Conference" height="24" width="24"> American Football Conference</th>
@@ -268,7 +268,7 @@
        </tr>
     </table>
         </div>
-        <div class="col-md-4 standings"><img class="standings-child" id="standings-img-bottom" src={{ url_for ('static', filename='images/chiefs-stiff-arm.jpg')}} alt="Chiefs Stiff Arm" height="300" width="300"> </div>
+        <div class="col-lg-4 standings"><img class="standings-child" id="standings-img-bottom" src={{ url_for ('static', filename='images/chiefs-stiff-arm.jpg')}} alt="Chiefs Stiff Arm" height="300" width="300"> </div>
     </div> <!--end row -->
 
 {% endblock %}
