@@ -1,16 +1,17 @@
 {% extends "layout.html" %}
 {% block content %}
-   <div>
-       <h2 id="welcome">Welcome to NFL Endzone!</h2>
-       <h3>What's Being Said on Twitter</h3>
-       {% for status in results %}
-            <div class="tweet">
-                <p class="screen-name">@{{ status.user.screen_name }} </p>
-                <p>followers: {{ status.user.followers_count }} </p>
-                <img class="tweet-img" src="{{status.user.profile_image_url_https}}" width="60" height="60" alt="user image">
-                <p class="tweet-text">{{ status.text.encode('utf-8') }}</p>
-            </div>
-       {% endfor %}
-
+   <h2 id="welcome">Welcome to NFL Endzone!</h2>
+   <div class="row">
+       <div class="col-xs-6 col-xs-offset-3">
+           <h3>What's Being Said on Twitter</h3>
+           {% for status in results %}
+                <div class="tweet">
+                    <p class="screen-name">@{{ status.user.screen_name }} </p>
+                    <p>followers: {{ status.user.followers_count }} </p>
+                    <img class="tweet-img" src="{{status.user.profile_image_url_https}}" width="60" height="60" alt="user image">
+                    <p class="tweet-text">{{ status.text.encode('utf-8') }}</p>
+                </div>
+           {% endfor %}
+       </div>
    </div>
 {% endblock %}

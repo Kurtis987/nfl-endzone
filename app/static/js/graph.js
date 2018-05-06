@@ -166,7 +166,7 @@ function wrap(text, width) {
         line.pop();
         tspan.text(line.join(" "));
         line = [word];
-        tspan = text.append("tspan").attr("x", -5).attr("y", y).attr("dy", ++lineNumber * lineHeight + dy + "em").text(word);
+        tspan = text.append("tspan").attr("x", -3).attr("y", y).attr("dy", ++lineNumber * lineHeight + dy + "em").text(word);
       }
     }
   })};

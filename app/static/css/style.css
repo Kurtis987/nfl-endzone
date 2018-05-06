@@ -1,10 +1,13 @@
+
 .about {
     text-align: center;
 }
 
 html {
-  height: 100%;
-  box-sizing: border-box;
+    box-sizing: border-box;
+    height: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 .axis path, .axis line {
@@ -12,15 +15,43 @@ html {
     stroke: #000;
     shape-rendering: crispEdges;
 }
+a:focus, a:hover {
+    color: #23527c;
+    text-decoration: none;
+    border-bottom: 2px solid;
+}
 
 body {
-	min-height: 100%;
+    height: 100%;
 	margin: 0;
 	padding: 0;
-	position: relative;
 }
 .categories {
-    float:right;
+    background-color: #e8f56c;
+    padding-bottom: 10px;
+}
+.categories > h4 {
+    margin-top: 0;
+    padding: 7px 0 0 15px;
+    color: #337ab7;
+}
+
+ul {
+    list-style: none;
+}
+.categories > ul {
+    list-style: none;
+    padding:0;
+    margin:0;
+}
+
+.categories > ul > li {
+    padding-left: 3em;
+    text-indent: -.7em;
+}
+.categories > ul > li::before {
+  content: "• ";
+  color: #337ab7; /* or whatever color you prefer */
 }
 .chart {
     margin: 0 auto;
@@ -31,31 +62,70 @@ body {
 }
 .chart-title{
     position:relative;
-    top: 100px;
+    top: 0;
     text-align: center;
 }
-.navbar {
-    background: #a4ddf1;
+.chart-wrapper{
+    margin-top: 10px;
 }
-.navbar-brand {
-    height: 107px;
+.container {
+    padding: 0;
+}
+.dropdown-menu>li>a {
+    color: #547abc;
+    display: inline-block;
+}
+
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
+    color: #23527c;
+    text-decoration: none;
+    border-bottom: 2px solid steelblue;
+    background: 0;
 }
 
 footer {
-	/*bottom: 0; */
+	background: #a4ddf1;
+	bottom: 0;
+	clear: both;
 	height: 80px;
 	padding: 0px 15px;
+	position: absolute;
 	width: 100%;
 }
 
 #footer-heading {
     line-height: 40px;
-    margin-top: 25px;
     margin-bottom: 0;
-    padding: 40px 0 20px 0;
+    padding-top: 20px;
 }
+
+.nav>li>a {
+    display: inline-block;
+}
+.nav>li>a:focus, .nav>li>a:hover, .nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+    background-color: #a4ddf1;
+    border-bottom: 2px solid steelblue;
+}
+.navbar {
+    background: #a4ddf1;
+    margin-bottom: 0;
+}
+.navbar-brand {
+    height: 107px;
+}
+.navbar-toggle {
+    border: 1px solid steelblue;
+}
+.navbar-toggle .icon-bar {
+    background: steelblue;
+}
+
 rect {
     fill: steelblue;
+}
+row {
+    display: flex;
+    float: left;
 }
 .second-table {
     margin-top: 40px;
@@ -68,11 +138,14 @@ rect {
     text-align: center;
 }
 .standings-child {
-    margin: auto;
+    margin: 5px auto 0 auto;
+}
+.last-child {
+    margin-bottom: 5px;
 }
 
 #standings-img-top {
-    margin-bottom: 5px;
+    margin: 5px 0 5px 25px;
 }
 #standings-img-bottom {
     margin-top: 5px;
@@ -88,7 +161,12 @@ th, td {
     border: 1px solid white;
     padding: 10px;
 }
-
+#trivia {
+    margin-bottom: 20px;
+}
+.trivia {
+    margin: 30px;
+}
 .tweet {
     margin-bottom: 60px;
 }
@@ -112,10 +190,34 @@ th, td {
 }
 
 .wrapper {
-    min-height: calc(100vh - 70px);
+      min-height: 100%;
+      height: auto !important;
+      height: 100%;
+      margin: 0 auto -80px; /* the bottom margin is the negative value of the footer's height */
+      position: relative;
+      padding-bottom: 80px;
 }
 
 @media (min-width: 768px){
+    .container {
+        padding: 0;
+        margin-left: 0;
+        height: 840px;
+        width: 100%;
+    }
+    .container-fluid {
+        height: 100%;
+    }
+    .categories {
+        padding-top: 20px;
+        min-width: 160px;
+    }
+    .row {
+        display: flex;
+        align-items: stretch;
+        width: 100%;
+        height: 100%;
+    }
     .tweet-text {
         width: 90%;
     }
@@ -123,8 +225,26 @@ th, td {
         margin: 0;
         padding: 20px 0;
     }
+    .dropdown-menu>li>a {
+        display: block;
+    }
+    .dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover{
+        background-color: #ddeefb;
+        border: 0;
+        color: #23527c;
+    }
+    .nav>li>a:focus, .nav>li>a:hover, .nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+    background-color: #a4ddf1;
+    border-bottom: 2px solid steelblue;
+    }
+    .navbar {
+        border-radius: 0;
+    }
     .navbar-right {
         padding-top: 28px;
+    }
+    .trivia {
+        margin: 0 auto;
     }
 }
 

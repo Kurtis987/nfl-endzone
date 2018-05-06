@@ -146,7 +146,6 @@ def individualStats():
             players = collection.find(projection=FIELDS, limit=5500)
             # Convert projects to a list in a JSON object and return the JSON data
             data = json.dumps(list(players), separators=(',', ':'))
-            print(data)
             return data
         except:
             return "no documents found"
@@ -173,9 +172,8 @@ def teamStats():
             teams = collection.find(projection=FIELDS, limit=5500)
             # Convert projects to a list in a JSON object and return the JSON data
             data = json.dumps(list(teams), separators=(',', ':'))
-            print(data)
             return data
         except:
             return "no documents found"
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()

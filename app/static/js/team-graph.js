@@ -16,7 +16,7 @@ function AddXAxis(chartToUpdate, displayText) {
 
 function makeTeamGraphs(error, stats) {
     if (error) {
-        console.error("makeGraphs error on receiving dataset:", error.statusText);
+        console.error("makeTeamGraphs error on receiving dataset:", error.statusText);
         throw error;
     }
 

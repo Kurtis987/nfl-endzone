@@ -1,30 +1,29 @@
 {% extends "layout.html" %}
 {% block content %}
- <div class="categories col-sm-2">
-   <h4>Offense</h4>
-   <ul>
-       <li><a href="/total-offense">Total Yds/G</a></li>
-       <li><a href="/team-passing">Passing Yds/G</a></li>
-       <li><a href="/team-rushing">Rushing Yds/G</a></li>
-       <li><a href="/team-receiving">Receiving Yds/G</a></li>
-   </ul>
-   <h4>Defense</h4>
-   <ul>
-       <li><a href="/total-defense">Total Allowed Yds/G</a></li>
-       <li><a href="/passing-allowed">Passing Allowed Yds/G</a></li>
-       <li><a href="/rushing-allowed">Rushing Allowed Yds/G</a></li>
-       <li><a href="/receiving-allowed">Receiving Allowed Yds/G</a></li>
-   </ul>
-   <h4>Fans</h4>
-   <ul>
-       <li><a href="/fans-avg">Fans Per Game</a></li>
-       <li><a href="/fans-total">Fans Season Total </a></li>
-   </ul>
-</div>
-<div  id="outer" class="container-fluid">
+<div class="container-fluid">
     <div class="row">
-      <!-- Total Yds/G -->
-      <div class="col-sm-8">
+         <div class="categories col-sm-2">
+           <h4>Offense</h4>
+           <ul>
+               <li><a href="/total-offense">Total Yds/G</a></li>
+               <li><a href="/team-passing">Passing Yds/G</a></li>
+               <li><a href="/team-rushing">Rushing Yds/G</a></li>
+               <li><a href="/team-receiving">Receiving Yds/G</a></li>
+           </ul>
+           <h4>Defense</h4>
+           <ul>
+               <li><a href="/total-defense">Total Allowed Yds/G</a></li>
+               <li><a href="/passing-allowed">Passing Allowed Yds/G</a></li>
+               <li><a href="/rushing-allowed">Rushing Allowed Yds/G</a></li>
+               <li><a href="/receiving-allowed">Receiving Allowed Yds/G</a></li>
+           </ul>
+           <h4>Fans</h4>
+           <ul>
+               <li><a href="/fans-avg">Fans Per Game</a></li>
+               <li><a href="/fans-total">Fans Season Total </a></li>
+           </ul>
+        </div>
+      <div class="col-sm-10">
         <div class="chart-wrapper">
           <div class="chart-title">
             Wins
@@ -42,7 +41,6 @@
           </div>
         </div>
       </div>
-      <!-- Total Yds/G -->
     </div>
 </div>
 {% endblock %}
