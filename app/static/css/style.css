@@ -27,7 +27,7 @@ body {
 	padding: 0;
 }
 .categories {
-    background-color: #e8f56c;
+    background-color: #d2d3d4;
     padding-bottom: 10px;
 }
 .categories > h4 {
@@ -44,11 +44,11 @@ ul {
     padding:0;
     margin:0;
 }
-
 .categories > ul > li {
     padding-left: 3em;
     text-indent: -.7em;
 }
+
 .categories > ul > li::before {
   content: "• ";
   color: #337ab7; /* or whatever color you prefer */
@@ -199,6 +199,37 @@ th, td {
 }
 
 @media (min-width: 768px){
+    .categories {
+        padding: 20px 0 10px 0;
+        min-width: 160px;
+        box-shadow: 5px 0px 15px -2px #888888;
+    }
+    .categories > ul > li:first-child {
+        border-top: 1px solid #9aa5ad;
+    }
+    .categories > ul > li::before {
+        content: "";
+        color: #337ab7; /* or whatever color you prefer */
+    }
+    .categories > ul > li:focus, .categories > ul >li:hover {
+        background: #36454F;
+        color: white;
+    }
+    .categories > ul > li:focus, .categories > ul > li:hover > a {
+        color: white;
+    }
+    .categories > ul > li {
+        padding: 5px 0 5px 3em;
+        text-indent: -.7em;
+        border-bottom: 1px solid #9aa5ad;
+    }
+    .categories > ul > li > a
+    {
+        display: block;
+    }
+    .categories > ul > li > a:focus, .categories > ul > li > a:hover {
+        border-bottom: 0;
+    }
     .container {
         padding: 0;
         margin-left: 0;
@@ -208,10 +239,7 @@ th, td {
     .container-fluid {
         height: 100%;
     }
-    .categories {
-        padding-top: 20px;
-        min-width: 160px;
-    }
+
     .row {
         display: flex;
         align-items: stretch;
