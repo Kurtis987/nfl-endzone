@@ -14,7 +14,6 @@ api = tweepy.API(auth)
 count = 4
 query = 'NFL'
 
-
 # Get all status
 results = [status for status in tweepy.Cursor(api.search, q=query).items(count)]
 

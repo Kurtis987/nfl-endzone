@@ -9,7 +9,7 @@
                     <p class="screen-name">@{{ status.user.screen_name }} </p>
                     <p>followers: {{ status.user.followers_count }} </p>
                     <img class="tweet-img" src="{{status.user.profile_image_url_https}}" width="60" height="60" alt="user image">
-                    <p class="tweet-text">{{ status.text.encode('utf-8') }}</p>
+                    <p class="tweet-text">{{ status.text }}</p>
                 </div>
            {% endfor %}
        </div>
