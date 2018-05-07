@@ -219,13 +219,14 @@ th, td {
         color: white;
     }
     .categories > ul > li {
-        padding: 5px 0 5px 3em;
+        padding: 5px 0 5px 0;
         text-indent: -.7em;
         border-bottom: 1px solid #9aa5ad;
     }
     .categories > ul > li > a
     {
         display: block;
+        padding-left: 3em;
     }
     .categories > ul > li > a:focus, .categories > ul > li > a:hover {
         border-bottom: 0;
