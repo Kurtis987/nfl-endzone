@@ -25,7 +25,9 @@ This site uses MongoDB to store data, and the site is styled with Bootstrap.
 
 ## Tech Used
 
-### Some of the tech used includes:  
+### Some of the tech used includes: 
+- [Twitter API]
+	- I use the Twitter API to fetch tweets based off of the 'NFL' query
 - [MongoDB]
 	- I use MongoDB to store data documents
 - [Bootstrap](http://getbootstrap.com/)
